@@ -1,5 +1,4 @@
 words=lines=chars=0
-result=[]
 with open("solitary.txt")as file:
    for line in file:
      line=line.strip("\n")
